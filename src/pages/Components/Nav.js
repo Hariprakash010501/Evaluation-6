@@ -12,7 +12,7 @@ export default function Nav() {
                 <li><Link style={{ textDecoration: "none", color: "white" }} href="/">Hariprakash</Link></li>
                 <li><Link style={{ textDecoration: "none", color: "white" }} href="/projects">Projects</Link></li>
                 <li><Link style={{ textDecoration: "none", color: "white" }} href="/education">Experience</Link></li>
-                <Image alt="hi" onClick={() => router.push("https://github.com/Hariprakash010501")} style={{ float: 'right', borderRadius: "50%" }} src={img} width={40} height={40} />
+                <Image className={navStyle.pic} alt="hi" onClick={() => router.push("https://github.com/Hariprakash010501")} style={{ float: 'right', borderRadius: "50%" }} src={img} width={40} height={40} />
             </ul>
         </div>
     )
